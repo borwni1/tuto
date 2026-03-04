@@ -11,7 +11,7 @@ public class ConnexionController {
 		return "connexion/home.html";
 	}
 
-	@GetMapping( "/hello" )
+	@GetMapping( "/connect" )
 	public String page2() {
 		return "connexion/bonjour.html";
 	}
